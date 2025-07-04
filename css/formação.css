@@ -1,0 +1,101 @@
+/* 
+***** FORMATAÇÕES GENÉRICAS *****
+*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #101726;
+}
+
+p{
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+*{
+    margin: 0;
+}
+
+/* 
+**** HEADER ****
+*/
+#header{
+    background-color: #CCCCCC;
+    padding: 15px;
+    text-align: center;
+}
+
+#menu{
+    padding: 5px;
+}
+
+#header a:link, #header a:visited{
+    color: #1b1b1b;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: #000000;
+    background: #aea8a1;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/*
+**** TITULO ****
+*/
+#titulo h1{
+    color: #CCCCCC;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 90px;
+}
+#linha{
+    width: 900px;
+    height: 2px;
+    margin: 10px auto 30px;
+    margin-left: 530px;
+    background-color: #CCCCCC;
+}
+
+
+/*
+**** POSTS ****
+*/
+#container{
+    margin-left: 80px;
+}
+
+#posts{
+    width: 900px;
+    margin-left: 450px;
+}
+#posts h2, h4{
+    color: white;
+} 
+
+.post{
+    padding: 25px;
+    margin-bottom: 30px;
+    background: #1E2940;
+}
+
+.post p{
+    margin-bottom: 20px; 
+}
+
+/*
+**** FORMATAÇÃO LINK ****
+*/
+a.linkcor:link, a.linkcor:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.data-conclu{
+    font-size: 13px;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
